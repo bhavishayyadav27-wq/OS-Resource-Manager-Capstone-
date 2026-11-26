@@ -1,0 +1,1562 @@
+2026-11-12 10:17:34 | INFO | osim.analysis | Full analysis started (quantum=4)
+2026-11-12 10:17:34 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | RR(q=4) on 4 processes: avg_wait=11.75 avg_tat=18.25 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | FCFS on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-12 10:17:34 | INFO | osim.scheduler | SJF on 8 processes: avg_wait=7.75 avg_tat=11.88 util=97.1%
+2026-11-12 10:17:34 | INFO | osim.scheduler | SRTF on 8 processes: avg_wait=3.75 avg_tat=7.88 util=97.1%
+2026-11-12 10:17:34 | INFO | osim.scheduler | Priority on 8 processes: avg_wait=10.50 avg_tat=14.62 util=97.1%
+2026-11-12 10:17:34 | INFO | osim.scheduler | RR(q=4) on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-12 10:17:34 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | SJF on 6 processes: avg_wait=34.00 avg_tat=42.83 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | SRTF on 6 processes: avg_wait=4.17 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | Priority on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.scheduler | RR(q=4) on 6 processes: avg_wait=8.17 avg_tat=17.00 util=100.0%
+2026-11-12 10:17:34 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/traces/scheduling_trace.txt
+2026-11-12 10:17:35 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/results_scheduling.csv
+2026-11-12 10:17:35 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/scheduling_comparison.png
+2026-11-12 10:17:35 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/gantt_textbook.png
+2026-11-12 10:17:35 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/gantt_mixed.png
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=6 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=7 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=8 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=6 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=7 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=6 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=7 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=8 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=6 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=7 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=8 refs=20 faults=6
+2026-11-12 10:17:35 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/page_faults_pages_textbook.png
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging FIFO frames=8 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=1 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=2 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=4 refs=12 faults=8
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=5 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=6 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=7 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging LRU frames=8 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=1 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=2 refs=12 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=4 refs=12 faults=6
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=5 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=6 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=7 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging OPT frames=8 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=1 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=2 refs=12 faults=12
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=4 refs=12 faults=10
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=5 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=6 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=7 refs=12 faults=5
+2026-11-12 10:17:35 | INFO | osim.memory | Paging CLOCK frames=8 refs=12 faults=5
+2026-11-12 10:17:36 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/page_faults_pages_belady.png
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=1 refs=36 faults=36
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=2 refs=36 faults=34
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=4 refs=36 faults=18
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=5 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=6 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=7 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=8 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=1 refs=36 faults=36
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=2 refs=36 faults=34
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=4 refs=36 faults=16
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=5 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=6 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=7 refs=36 faults=11
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=8 refs=36 faults=11
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=1 refs=36 faults=36
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=2 refs=36 faults=25
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=4 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=5 refs=36 faults=11
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=6 refs=36 faults=10
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=7 refs=36 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=8 refs=36 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=1 refs=36 faults=36
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=2 refs=36 faults=34
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=4 refs=36 faults=18
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=5 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=6 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=7 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=8 refs=36 faults=13
+2026-11-12 10:17:36 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/page_faults_pages_locality.png
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-12 10:17:36 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/belady_anomaly.png
+2026-11-12 10:17:36 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-12 10:17:36 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-12 10:17:36 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-12 10:17:36 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-12 10:17:36 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-12 10:17:36 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-12 10:17:36 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-12 10:17:36 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/allocation_strategies.png
+2026-11-12 10:17:36 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/traces/memory_trace.txt
+2026-11-12 10:17:36 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/results_memory.csv
+2026-11-12 10:17:36 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:36 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:36 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-12 10:17:36 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-12 10:17:36 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-12 10:17:36 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-12 10:17:36 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-12 10:17:36 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-12 10:17:36 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/traces/deadlock_trace.txt
+2026-11-12 10:17:36 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 10:17:36 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 10:17:36 | INFO | osim.storage | Disk FCFS head=250 requests=20 movement=5125
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SSTF head=250 requests=20 movement=723
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SCAN head=250 requests=20 movement=739
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-SCAN head=250 requests=20 movement=988
+2026-11-12 10:17:36 | INFO | osim.storage | Disk LOOK head=250 requests=20 movement=729
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-LOOK head=250 requests=20 movement=958
+2026-11-12 10:17:36 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/traces/storage_trace.txt
+2026-11-12 10:17:36 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/results_storage.csv
+2026-11-12 10:17:36 | INFO | osim.reporting | Chart saved /home/claude/os_resource_manager/outputs/charts/disk_head_movement.png
+2026-11-12 10:17:36 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-12 10:17:36 | INFO | osim.bashbridge | Bash script log_summary.sh ok
+2026-11-12 10:17:36 | INFO | osim.reporting | Wrote /home/claude/os_resource_manager/outputs/traces/summary_observations.txt
+2026-11-12 10:17:36 | INFO | osim.analysis | Full analysis finished
+2026-11-12 10:17:36 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-12 10:17:36 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-12 10:17:36 | ERROR | osim.deadlock | P1 request [9, 9, 9] exceeds declared need [1, 2, 2]
+2026-11-12 10:17:36 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:36 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:36 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:36 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-12 10:17:36 | INFO | osim.deadlock | P0 request [0, 0, 0] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:36 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-12 10:17:36 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-12 10:17:36 | WARNING | osim.memory | Allocation of BIG (101) failed under first-fit
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=1 refs=5 faults=3
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-12 10:17:36 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-12 10:17:36 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-12 10:17:36 | INFO | osim.memory | Paging OPT frames=2 refs=1 faults=1
+2026-11-12 10:17:36 | INFO | osim.scheduler | FCFS on 1 processes: avg_wait=0.00 avg_tat=3.00 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | RR(q=3) on 4 processes: avg_wait=13.50 avg_tat=20.00 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | FCFS on 2 processes: avg_wait=0.00 avg_tat=2.00 util=33.3%
+2026-11-12 10:17:36 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | Priority on 2 processes: avg_wait=2.50 avg_tat=7.50 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | RR(q=1000) on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | RR(q=2) on 2 processes: avg_wait=4.50 avg_tat=9.50 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.scheduler | SRTF on 1 processes: avg_wait=0.00 avg_tat=1.00 util=100.0%
+2026-11-12 10:17:36 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=208
+2026-11-12 10:17:36 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 10:17:36 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SCAN head=0 requests=2 movement=10
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SSTF head=19 requests=2 movement=19
+2026-11-12 10:17:36 | INFO | osim.storage | Disk FCFS head=10 requests=1 movement=0
+2026-11-12 10:17:36 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 10:17:36 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 10:17:36 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 10:17:36 | INFO | osim.storage | Disk C-SCAN head=0 requests=1 movement=2
+2026-11-12 10:17:36 | ERROR | osim.bashbridge | Bash script generate_workload.sh failed: error: number of processes must be an integer 1..500
+2026-11-12 10:17:36 | INFO | osim.bashbridge | Bash script generate_workload.sh ok
+2026-11-12 10:17:36 | INFO | osim.bashbridge | Bash script generate_workload.sh ok
+2026-11-12 10:17:36 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-12 10:17:37 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:37 | ERROR | osim.main | Menu option 1: File not found: /home/claude/os_resource_manager/data/missing.csv
+2026-11-12 10:17:37 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:37 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:37 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:37 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:37 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:37 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:37 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:38 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:38 | WARNING | osim.main | Invalid menu option 'abc'
+2026-11-12 10:17:38 | WARNING | osim.main | Invalid menu option '99'
+2026-11-12 10:17:38 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:38 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:38 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:38 | INFO | osim.main | Menu option 1 completed
+2026-11-12 10:17:38 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:39 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:39 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:39 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:39 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:39 | INFO | osim.main | Menu option 1 completed
+2026-11-12 10:17:39 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:40 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:40 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:40 | INFO | osim.main | Menu option 2 completed
+2026-11-12 10:17:40 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:40 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:40 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:40 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:40 | WARNING | osim.deadlock | P4 request [3, 3, 0] denied: would leave system unsafe
+2026-11-12 10:17:40 | INFO | osim.deadlock | P0 request [0, 2, 0] granted; safe sequence ['P3', 'P1', 'P2', 'P0', 'P4']
+2026-11-12 10:17:40 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-12 10:17:40 | INFO | osim.main | Menu option 4 completed
+2026-11-12 10:17:40 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:40 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:40 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 10:17:40 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 10:17:40 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 10:17:40 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 10:17:40 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 10:17:40 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 10:17:40 | INFO | osim.main | Menu option 5 completed
+2026-11-12 10:17:40 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:41 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:41 | WARNING | osim.main | Invalid menu option '9'
+2026-11-12 10:17:41 | ERROR | osim.main | Menu option 1: File not found: /home/claude/os_resource_manager/data/missing.csv
+2026-11-12 10:17:41 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:41 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:41 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:41 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-12 10:17:41 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-12 10:17:41 | ERROR | osim.deadlock | P1 request [9, 9, 9] exceeds declared need [1, 2, 2]
+2026-11-12 10:17:41 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:41 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:41 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:41 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-12 10:17:41 | INFO | osim.deadlock | P0 request [0, 0, 0] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 10:17:41 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-12 10:17:41 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-12 10:17:41 | WARNING | osim.memory | Allocation of BIG (101) failed under first-fit
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=1 refs=5 faults=3
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-12 10:17:41 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-12 10:17:41 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 10:17:41 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-12 10:17:41 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-12 10:17:41 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-12 10:17:41 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-12 10:17:41 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-12 10:17:41 | INFO | osim.memory | Paging OPT frames=2 refs=1 faults=1
+2026-11-12 10:17:41 | INFO | osim.scheduler | FCFS on 1 processes: avg_wait=0.00 avg_tat=3.00 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | RR(q=3) on 4 processes: avg_wait=13.50 avg_tat=20.00 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | FCFS on 2 processes: avg_wait=0.00 avg_tat=2.00 util=33.3%
+2026-11-12 10:17:41 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | Priority on 2 processes: avg_wait=2.50 avg_tat=7.50 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | RR(q=1000) on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | RR(q=2) on 2 processes: avg_wait=4.50 avg_tat=9.50 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.scheduler | SRTF on 1 processes: avg_wait=0.00 avg_tat=1.00 util=100.0%
+2026-11-12 10:17:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=208
+2026-11-12 10:17:41 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 10:17:41 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 10:17:41 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 10:17:41 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 10:17:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 10:17:41 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 10:17:41 | INFO | osim.storage | Disk SCAN head=0 requests=2 movement=10
+2026-11-12 10:17:41 | INFO | osim.storage | Disk SSTF head=19 requests=2 movement=19
+2026-11-12 10:17:41 | INFO | osim.storage | Disk FCFS head=10 requests=1 movement=0
+2026-11-12 10:17:41 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 10:17:41 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 10:17:41 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 10:17:41 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 10:17:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 10:17:41 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 10:17:41 | INFO | osim.storage | Disk C-SCAN head=0 requests=1 movement=2
+2026-11-12 10:17:41 | ERROR | osim.bashbridge | Bash script generate_workload.sh failed: error: number of processes must be an integer 1..500
+2026-11-12 10:17:41 | INFO | osim.bashbridge | Bash script generate_workload.sh ok
+2026-11-12 10:17:41 | INFO | osim.bashbridge | Bash script generate_workload.sh ok
+2026-11-12 10:17:41 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-12 10:17:42 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:42 | ERROR | osim.main | Menu option 1: File not found: /home/claude/os_resource_manager/data/missing.csv
+2026-11-12 10:17:42 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:42 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:42 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:42 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:42 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:42 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:42 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:43 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:43 | WARNING | osim.main | Invalid menu option 'abc'
+2026-11-12 10:17:43 | WARNING | osim.main | Invalid menu option '99'
+2026-11-12 10:17:43 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:43 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:43 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 10:17:43 | INFO | osim.main | Menu option 1 completed
+2026-11-12 10:17:43 | INFO | osim.main | Interactive session ended
+2026-11-12 10:17:44 | INFO | osim.main | Interactive session started
+2026-11-12 10:17:44 | WARNING | osim.main | Invalid menu option '9'
+2026-11-12 10:17:44 | ERROR | osim.main | Menu option 1: File not found: /home/claude/os_resource_manager/data/missing.csv
+2026-11-12 10:17:44 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:44 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 10:17:44 | ERROR | osim.main | Menu option 2: page number must be an integer, got 'x'.
+2026-11-12 10:17:44 | ERROR | osim.main | Menu option 3: File not found: /home/claude/os_resource_manager/0
+2026-11-12 10:17:44 | INFO | osim.main | Interactive session ended
+2026-11-12 19:43:27 | INFO | osim.analysis | Full analysis started (quantum=4)
+2026-11-12 19:43:27 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | RR(q=4) on 4 processes: avg_wait=11.75 avg_tat=18.25 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | FCFS on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-12 19:43:27 | INFO | osim.scheduler | SJF on 8 processes: avg_wait=7.75 avg_tat=11.88 util=97.1%
+2026-11-12 19:43:27 | INFO | osim.scheduler | SRTF on 8 processes: avg_wait=3.75 avg_tat=7.88 util=97.1%
+2026-11-12 19:43:27 | INFO | osim.scheduler | Priority on 8 processes: avg_wait=10.50 avg_tat=14.62 util=97.1%
+2026-11-12 19:43:27 | INFO | osim.scheduler | RR(q=4) on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-12 19:43:27 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | SJF on 6 processes: avg_wait=34.00 avg_tat=42.83 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | SRTF on 6 processes: avg_wait=4.17 avg_tat=13.00 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | Priority on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.scheduler | RR(q=4) on 6 processes: avg_wait=8.17 avg_tat=17.00 util=100.0%
+2026-11-12 19:43:27 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\scheduling_trace.txt
+2026-11-12 19:43:27 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_scheduling.csv
+2026-11-12 19:43:28 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\scheduling_comparison.png
+2026-11-12 19:43:28 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_textbook.png
+2026-11-12 19:43:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_mixed.png
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=6 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=7 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=8 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=6 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=7 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=6 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=7 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=8 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=6 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=7 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=8 refs=20 faults=6
+2026-11-12 19:43:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_textbook.png
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=8 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=1 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=2 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=4 refs=12 faults=8
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=5 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=6 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=7 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=8 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=1 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=2 refs=12 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=4 refs=12 faults=6
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=5 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=6 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=7 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=8 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=1 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=2 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=4 refs=12 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=5 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=6 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=7 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=8 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_belady.png
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=1 refs=36 faults=36
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=2 refs=36 faults=34
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=4 refs=36 faults=18
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=5 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=6 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=7 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=8 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=1 refs=36 faults=36
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=2 refs=36 faults=34
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=4 refs=36 faults=16
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=5 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=6 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=7 refs=36 faults=11
+2026-11-12 19:43:29 | INFO | osim.memory | Paging LRU frames=8 refs=36 faults=11
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=1 refs=36 faults=36
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=2 refs=36 faults=25
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=4 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=5 refs=36 faults=11
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=6 refs=36 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=7 refs=36 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging OPT frames=8 refs=36 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=1 refs=36 faults=36
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=2 refs=36 faults=34
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=4 refs=36 faults=18
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=5 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=6 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=7 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.memory | Paging CLOCK frames=8 refs=36 faults=13
+2026-11-12 19:43:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_locality.png
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-12 19:43:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\belady_anomaly.png
+2026-11-12 19:43:29 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-12 19:43:29 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-12 19:43:29 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-12 19:43:29 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-12 19:43:29 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-12 19:43:29 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-12 19:43:29 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-12 19:43:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\allocation_strategies.png
+2026-11-12 19:43:29 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\memory_trace.txt
+2026-11-12 19:43:29 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_memory.csv
+2026-11-12 19:43:29 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:43:29 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:43:29 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-12 19:43:29 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-12 19:43:29 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-12 19:43:29 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-12 19:43:29 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-12 19:43:29 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-12 19:43:29 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\deadlock_trace.txt
+2026-11-12 19:43:29 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 19:43:29 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 19:43:29 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 19:43:29 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 19:43:29 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 19:43:29 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 19:43:29 | INFO | osim.storage | Disk FCFS head=250 requests=20 movement=5125
+2026-11-12 19:43:29 | INFO | osim.storage | Disk SSTF head=250 requests=20 movement=723
+2026-11-12 19:43:29 | INFO | osim.storage | Disk SCAN head=250 requests=20 movement=739
+2026-11-12 19:43:29 | INFO | osim.storage | Disk C-SCAN head=250 requests=20 movement=988
+2026-11-12 19:43:29 | INFO | osim.storage | Disk LOOK head=250 requests=20 movement=729
+2026-11-12 19:43:29 | INFO | osim.storage | Disk C-LOOK head=250 requests=20 movement=958
+2026-11-12 19:43:29 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\storage_trace.txt
+2026-11-12 19:43:29 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_storage.csv
+2026-11-12 19:43:30 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\disk_head_movement.png
+2026-11-12 19:43:30 | WARNING | osim.analysis | System snapshot unavailable: bash is not available on this system.
+2026-11-12 19:43:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\summary_observations.txt
+2026-11-12 19:43:30 | INFO | osim.analysis | Full analysis finished
+2026-11-12 19:47:28 | INFO | osim.analysis | Full analysis started (quantum=4)
+2026-11-12 19:47:28 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | RR(q=4) on 4 processes: avg_wait=11.75 avg_tat=18.25 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | FCFS on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-12 19:47:28 | INFO | osim.scheduler | SJF on 8 processes: avg_wait=7.75 avg_tat=11.88 util=97.1%
+2026-11-12 19:47:28 | INFO | osim.scheduler | SRTF on 8 processes: avg_wait=3.75 avg_tat=7.88 util=97.1%
+2026-11-12 19:47:28 | INFO | osim.scheduler | Priority on 8 processes: avg_wait=10.50 avg_tat=14.62 util=97.1%
+2026-11-12 19:47:28 | INFO | osim.scheduler | RR(q=4) on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-12 19:47:28 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | SJF on 6 processes: avg_wait=34.00 avg_tat=42.83 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | SRTF on 6 processes: avg_wait=4.17 avg_tat=13.00 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | Priority on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.scheduler | RR(q=4) on 6 processes: avg_wait=8.17 avg_tat=17.00 util=100.0%
+2026-11-12 19:47:28 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\scheduling_trace.txt
+2026-11-12 19:47:28 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_scheduling.csv
+2026-11-12 19:47:28 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\scheduling_comparison.png
+2026-11-12 19:47:28 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_textbook.png
+2026-11-12 19:47:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_mixed.png
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=6 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=7 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=8 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=6 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=7 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=6 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=7 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=8 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=6 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=7 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=8 refs=20 faults=6
+2026-11-12 19:47:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_textbook.png
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=8 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=1 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=2 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=4 refs=12 faults=8
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=5 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=6 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=7 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=8 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=1 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=2 refs=12 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=4 refs=12 faults=6
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=5 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=6 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=7 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=8 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=1 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=2 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=4 refs=12 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=5 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=6 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=7 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=8 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_belady.png
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=1 refs=36 faults=36
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=2 refs=36 faults=34
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=4 refs=36 faults=18
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=5 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=6 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=7 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=8 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=1 refs=36 faults=36
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=2 refs=36 faults=34
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=4 refs=36 faults=16
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=5 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=6 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=7 refs=36 faults=11
+2026-11-12 19:47:29 | INFO | osim.memory | Paging LRU frames=8 refs=36 faults=11
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=1 refs=36 faults=36
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=2 refs=36 faults=25
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=4 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=5 refs=36 faults=11
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=6 refs=36 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=7 refs=36 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging OPT frames=8 refs=36 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=1 refs=36 faults=36
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=2 refs=36 faults=34
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=4 refs=36 faults=18
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=5 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=6 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=7 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.memory | Paging CLOCK frames=8 refs=36 faults=13
+2026-11-12 19:47:29 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_locality.png
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-12 19:47:29 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-12 19:47:30 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\belady_anomaly.png
+2026-11-12 19:47:30 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-12 19:47:30 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-12 19:47:30 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-12 19:47:30 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-12 19:47:30 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-12 19:47:30 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-12 19:47:30 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-12 19:47:30 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\allocation_strategies.png
+2026-11-12 19:47:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\memory_trace.txt
+2026-11-12 19:47:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_memory.csv
+2026-11-12 19:47:30 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:47:30 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:47:30 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-12 19:47:30 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-12 19:47:30 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-12 19:47:30 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-12 19:47:30 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-12 19:47:30 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-12 19:47:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\deadlock_trace.txt
+2026-11-12 19:47:30 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 19:47:30 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 19:47:30 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 19:47:30 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 19:47:30 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 19:47:30 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 19:47:30 | INFO | osim.storage | Disk FCFS head=250 requests=20 movement=5125
+2026-11-12 19:47:30 | INFO | osim.storage | Disk SSTF head=250 requests=20 movement=723
+2026-11-12 19:47:30 | INFO | osim.storage | Disk SCAN head=250 requests=20 movement=739
+2026-11-12 19:47:30 | INFO | osim.storage | Disk C-SCAN head=250 requests=20 movement=988
+2026-11-12 19:47:30 | INFO | osim.storage | Disk LOOK head=250 requests=20 movement=729
+2026-11-12 19:47:30 | INFO | osim.storage | Disk C-LOOK head=250 requests=20 movement=958
+2026-11-12 19:47:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\storage_trace.txt
+2026-11-12 19:47:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_storage.csv
+2026-11-12 19:47:30 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\disk_head_movement.png
+2026-11-12 19:47:30 | WARNING | osim.analysis | System snapshot unavailable: bash is not available on this system.
+2026-11-12 19:47:30 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\summary_observations.txt
+2026-11-12 19:47:30 | INFO | osim.analysis | Full analysis finished
+2026-11-12 19:47:41 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-12 19:47:41 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-12 19:47:41 | ERROR | osim.deadlock | P1 request [9, 9, 9] exceeds declared need [1, 2, 2]
+2026-11-12 19:47:41 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:47:41 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:47:41 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:47:41 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-12 19:47:41 | INFO | osim.deadlock | P0 request [0, 0, 0] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-12 19:47:41 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-12 19:47:41 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-12 19:47:41 | WARNING | osim.memory | Allocation of BIG (101) failed under first-fit
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=1 refs=5 faults=3
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-12 19:47:41 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-12 19:47:41 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-12 19:47:41 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-12 19:47:41 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-12 19:47:41 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-12 19:47:41 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-12 19:47:41 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-12 19:47:41 | INFO | osim.memory | Paging OPT frames=2 refs=1 faults=1
+2026-11-12 19:47:41 | INFO | osim.scheduler | FCFS on 1 processes: avg_wait=0.00 avg_tat=3.00 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | RR(q=3) on 4 processes: avg_wait=13.50 avg_tat=20.00 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | FCFS on 2 processes: avg_wait=0.00 avg_tat=2.00 util=33.3%
+2026-11-12 19:47:41 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | Priority on 2 processes: avg_wait=2.50 avg_tat=7.50 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | RR(q=1000) on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | RR(q=2) on 2 processes: avg_wait=4.50 avg_tat=9.50 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.scheduler | SRTF on 1 processes: avg_wait=0.00 avg_tat=1.00 util=100.0%
+2026-11-12 19:47:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=208
+2026-11-12 19:47:41 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 19:47:41 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 19:47:41 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 19:47:41 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 19:47:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 19:47:41 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 19:47:41 | INFO | osim.storage | Disk SCAN head=0 requests=2 movement=10
+2026-11-12 19:47:41 | INFO | osim.storage | Disk SSTF head=19 requests=2 movement=19
+2026-11-12 19:47:41 | INFO | osim.storage | Disk FCFS head=10 requests=1 movement=0
+2026-11-12 19:47:41 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-12 19:47:41 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-12 19:47:41 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-12 19:47:41 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-12 19:47:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-12 19:47:41 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-12 19:47:41 | INFO | osim.storage | Disk C-SCAN head=0 requests=1 movement=2
+2026-11-12 19:47:42 | INFO | osim.main | Interactive session started
+2026-11-12 19:47:42 | ERROR | osim.main | Menu option 1: File not found: C:\Users\krish\OneDrive\Desktop\os_resource_manager\data/missing.csv
+2026-11-12 19:47:42 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 19:47:42 | WARNING | osim.main | Invalid menu option ''
+2026-11-12 19:47:42 | INFO | osim.main | Interactive session ended
+2026-11-12 19:47:42 | INFO | osim.main | Interactive session started
+2026-11-12 19:47:42 | INFO | osim.main | Interactive session ended
+2026-11-12 19:47:43 | INFO | osim.main | Interactive session started
+2026-11-12 19:47:43 | INFO | osim.main | Interactive session ended
+2026-11-12 19:47:44 | INFO | osim.main | Interactive session started
+2026-11-12 19:47:44 | WARNING | osim.main | Invalid menu option 'abc'
+2026-11-12 19:47:44 | WARNING | osim.main | Invalid menu option '99'
+2026-11-12 19:47:44 | INFO | osim.main | Interactive session ended
+2026-11-12 19:47:45 | INFO | osim.main | Interactive session started
+2026-11-12 19:47:45 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-12 19:47:45 | INFO | osim.main | Menu option 1 completed
+2026-11-12 19:47:45 | INFO | osim.main | Interactive session ended
+2026-11-12 19:47:57 | INFO | osim.main | Interactive session started
+2026-11-12 20:14:05 | ERROR | osim.main | Menu option 1: File not found: /data/workload_convoy.csv
+2026-11-12 20:14:23 | ERROR | osim.main | Menu option 1: File not found: C:\Users\krish\OneDrive\Desktop\os_resource_manager\workload_convoy.csv
+2026-11-12 20:14:35 | WARNING | osim.main | Invalid menu option 'data/workload_convoy.csv'
+2026-11-12 20:15:04 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-12 20:15:04 | INFO | osim.main | Menu option 1 completed
+2026-11-13 19:32:53 | INFO | osim.main | Interactive session started
+2026-11-13 19:33:11 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-13 19:33:11 | INFO | osim.main | Menu option 7 completed
+2026-11-13 19:33:36 | INFO | osim.bashbridge | Bash script log_summary.sh ok
+2026-11-13 19:33:36 | INFO | osim.main | Menu option 7 completed
+2026-11-13 19:41:32 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 19:41:32 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 19:41:32 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 19:41:32 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 19:41:32 | INFO | osim.scheduler | RR(q=2) on 4 processes: avg_wait=12.75 avg_tat=19.25 util=100.0%
+2026-11-13 19:41:32 | INFO | osim.main | Menu option 1 completed
+2026-11-13 19:48:11 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 19:48:11 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 19:48:11 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 19:48:11 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 19:48:11 | INFO | osim.main | Menu option 2 completed
+2026-11-13 19:51:05 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-13 19:51:05 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-13 19:51:05 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-13 19:51:05 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-13 19:51:05 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-13 19:51:05 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-13 19:51:05 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-13 19:51:05 | INFO | osim.main | Menu option 3 completed
+2026-11-13 19:51:06 | WARNING | osim.main | Invalid menu option ''
+2026-11-13 19:51:16 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 19:51:20 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 19:51:20 | WARNING | osim.deadlock | P4 request [3, 3, 0] denied: would leave system unsafe
+2026-11-13 19:51:20 | INFO | osim.deadlock | P0 request [0, 2, 0] granted; safe sequence ['P3', 'P1', 'P2', 'P0', 'P4']
+2026-11-13 19:51:20 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-13 19:51:20 | INFO | osim.main | Menu option 4 completed
+2026-11-13 19:51:33 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 19:51:33 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 19:51:33 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 19:51:33 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 19:51:33 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 19:51:33 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 19:51:33 | INFO | osim.main | Menu option 5 completed
+2026-11-13 19:51:46 | INFO | osim.analysis | Full analysis started (quantum=4)
+2026-11-13 19:51:46 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | RR(q=4) on 4 processes: avg_wait=11.75 avg_tat=18.25 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | FCFS on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-13 19:51:46 | INFO | osim.scheduler | SJF on 8 processes: avg_wait=7.75 avg_tat=11.88 util=97.1%
+2026-11-13 19:51:46 | INFO | osim.scheduler | SRTF on 8 processes: avg_wait=3.75 avg_tat=7.88 util=97.1%
+2026-11-13 19:51:46 | INFO | osim.scheduler | Priority on 8 processes: avg_wait=10.50 avg_tat=14.62 util=97.1%
+2026-11-13 19:51:46 | INFO | osim.scheduler | RR(q=4) on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-13 19:51:46 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | SJF on 6 processes: avg_wait=34.00 avg_tat=42.83 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | SRTF on 6 processes: avg_wait=4.17 avg_tat=13.00 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | Priority on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.scheduler | RR(q=4) on 6 processes: avg_wait=8.17 avg_tat=17.00 util=100.0%
+2026-11-13 19:51:46 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\scheduling_trace.txt
+2026-11-13 19:51:46 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_scheduling.csv
+2026-11-13 19:51:46 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\scheduling_comparison.png
+2026-11-13 19:51:47 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_textbook.png
+2026-11-13 19:51:47 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_mixed.png
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=6 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=7 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=8 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=6 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=7 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=6 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=7 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=8 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=6 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=7 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=8 refs=20 faults=6
+2026-11-13 19:51:47 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_textbook.png
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=8 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=1 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=2 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=4 refs=12 faults=8
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=5 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=6 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=7 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=8 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=1 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=2 refs=12 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=4 refs=12 faults=6
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=5 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=6 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=7 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=8 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=1 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=2 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=4 refs=12 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=5 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=6 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=7 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=8 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_belady.png
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=1 refs=36 faults=36
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=2 refs=36 faults=34
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=4 refs=36 faults=18
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=5 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=6 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=7 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=8 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=1 refs=36 faults=36
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=2 refs=36 faults=34
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=4 refs=36 faults=16
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=5 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=6 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=7 refs=36 faults=11
+2026-11-13 19:51:47 | INFO | osim.memory | Paging LRU frames=8 refs=36 faults=11
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=1 refs=36 faults=36
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=2 refs=36 faults=25
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=4 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=5 refs=36 faults=11
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=6 refs=36 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=7 refs=36 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging OPT frames=8 refs=36 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=1 refs=36 faults=36
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=2 refs=36 faults=34
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=4 refs=36 faults=18
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=5 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=6 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=7 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.memory | Paging CLOCK frames=8 refs=36 faults=13
+2026-11-13 19:51:47 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_locality.png
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-13 19:51:47 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-13 19:51:48 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\belady_anomaly.png
+2026-11-13 19:51:48 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-13 19:51:48 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-13 19:51:48 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-13 19:51:48 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-13 19:51:48 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-13 19:51:48 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-13 19:51:48 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-13 19:51:48 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\allocation_strategies.png
+2026-11-13 19:51:48 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\memory_trace.txt
+2026-11-13 19:51:48 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_memory.csv
+2026-11-13 19:51:48 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 19:51:48 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 19:51:48 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-13 19:51:48 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-13 19:51:48 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-13 19:51:48 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-13 19:51:48 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-13 19:51:48 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-13 19:51:48 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\deadlock_trace.txt
+2026-11-13 19:51:48 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 19:51:48 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 19:51:48 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 19:51:48 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 19:51:48 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 19:51:48 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 19:51:48 | INFO | osim.storage | Disk FCFS head=250 requests=20 movement=5125
+2026-11-13 19:51:48 | INFO | osim.storage | Disk SSTF head=250 requests=20 movement=723
+2026-11-13 19:51:48 | INFO | osim.storage | Disk SCAN head=250 requests=20 movement=739
+2026-11-13 19:51:48 | INFO | osim.storage | Disk C-SCAN head=250 requests=20 movement=988
+2026-11-13 19:51:48 | INFO | osim.storage | Disk LOOK head=250 requests=20 movement=729
+2026-11-13 19:51:48 | INFO | osim.storage | Disk C-LOOK head=250 requests=20 movement=958
+2026-11-13 19:51:48 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\storage_trace.txt
+2026-11-13 19:51:48 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_storage.csv
+2026-11-13 19:51:48 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\disk_head_movement.png
+2026-11-13 19:51:50 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-13 19:51:51 | INFO | osim.bashbridge | Bash script log_summary.sh ok
+2026-11-13 19:51:51 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\summary_observations.txt
+2026-11-13 19:51:51 | INFO | osim.analysis | Full analysis finished
+2026-11-13 19:51:51 | INFO | osim.main | Menu option 6 completed
+2026-11-13 19:51:51 | WARNING | osim.main | Invalid menu option ''
+2026-11-13 20:42:08 | INFO | osim.main | Interactive session ended
+2026-11-13 20:42:19 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-13 20:42:19 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-13 20:42:19 | ERROR | osim.deadlock | P1 request [9, 9, 9] exceeds declared need [1, 2, 2]
+2026-11-13 20:42:19 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 20:42:19 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 20:42:19 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 20:42:19 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-13 20:42:19 | INFO | osim.deadlock | P0 request [0, 0, 0] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 20:42:19 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-13 20:42:19 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-13 20:42:19 | WARNING | osim.memory | Allocation of BIG (101) failed under first-fit
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=1 refs=5 faults=3
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-13 20:42:19 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-13 20:42:19 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 20:42:19 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-13 20:42:19 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-13 20:42:19 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-13 20:42:19 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-13 20:42:19 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-13 20:42:19 | INFO | osim.memory | Paging OPT frames=2 refs=1 faults=1
+2026-11-13 20:42:19 | INFO | osim.scheduler | FCFS on 1 processes: avg_wait=0.00 avg_tat=3.00 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | RR(q=3) on 4 processes: avg_wait=13.50 avg_tat=20.00 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | FCFS on 2 processes: avg_wait=0.00 avg_tat=2.00 util=33.3%
+2026-11-13 20:42:19 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | Priority on 2 processes: avg_wait=2.50 avg_tat=7.50 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | RR(q=1000) on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | RR(q=2) on 2 processes: avg_wait=4.50 avg_tat=9.50 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.scheduler | SRTF on 1 processes: avg_wait=0.00 avg_tat=1.00 util=100.0%
+2026-11-13 20:42:19 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=208
+2026-11-13 20:42:19 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 20:42:19 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 20:42:19 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 20:42:19 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 20:42:19 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 20:42:19 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 20:42:19 | INFO | osim.storage | Disk SCAN head=0 requests=2 movement=10
+2026-11-13 20:42:19 | INFO | osim.storage | Disk SSTF head=19 requests=2 movement=19
+2026-11-13 20:42:19 | INFO | osim.storage | Disk FCFS head=10 requests=1 movement=0
+2026-11-13 20:42:19 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 20:42:19 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 20:42:19 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 20:42:19 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 20:42:19 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 20:42:19 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 20:42:19 | INFO | osim.storage | Disk C-SCAN head=0 requests=1 movement=2
+2026-11-13 20:42:19 | ERROR | osim.bashbridge | Bash script generate_workload.sh failed: error: number of processes must be an integer 1..500
+2026-11-13 20:42:20 | INFO | osim.bashbridge | Bash script generate_workload.sh ok
+2026-11-13 20:42:20 | INFO | osim.bashbridge | Bash script generate_workload.sh ok
+2026-11-13 20:42:21 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-13 20:42:22 | INFO | osim.main | Interactive session started
+2026-11-13 20:42:22 | ERROR | osim.main | Menu option 1: File not found: C:\Users\krish\OneDrive\Desktop\os_resource_manager\data/missing.csv
+2026-11-13 20:42:22 | WARNING | osim.main | Invalid menu option ''
+2026-11-13 20:42:22 | WARNING | osim.main | Invalid menu option ''
+2026-11-13 20:42:22 | INFO | osim.main | Interactive session ended
+2026-11-13 20:42:23 | INFO | osim.main | Interactive session started
+2026-11-13 20:42:23 | INFO | osim.main | Interactive session ended
+2026-11-13 20:42:24 | INFO | osim.main | Interactive session started
+2026-11-13 20:42:24 | INFO | osim.main | Interactive session ended
+2026-11-13 20:42:25 | INFO | osim.main | Interactive session started
+2026-11-13 20:42:25 | WARNING | osim.main | Invalid menu option 'abc'
+2026-11-13 20:42:25 | WARNING | osim.main | Invalid menu option '99'
+2026-11-13 20:42:25 | INFO | osim.main | Interactive session ended
+2026-11-13 20:42:26 | INFO | osim.main | Interactive session started
+2026-11-13 20:42:26 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 20:42:26 | INFO | osim.main | Menu option 1 completed
+2026-11-13 20:42:26 | INFO | osim.main | Interactive session ended
+2026-11-13 21:28:06 | INFO | osim.main | Interactive session started
+2026-11-13 21:28:13 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 21:28:13 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 21:28:13 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 21:28:13 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 21:28:13 | INFO | osim.scheduler | RR(q=4) on 4 processes: avg_wait=11.75 avg_tat=18.25 util=100.0%
+2026-11-13 21:28:13 | INFO | osim.main | Menu option 1 completed
+2026-11-13 21:31:17 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 21:31:17 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 21:31:17 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 21:31:17 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 21:31:17 | INFO | osim.main | Menu option 2 completed
+2026-11-13 21:33:28 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-13 21:33:28 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-13 21:33:28 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-13 21:33:28 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-13 21:33:28 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-13 21:33:28 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-13 21:33:28 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-13 21:33:28 | INFO | osim.main | Menu option 3 completed
+2026-11-13 21:34:20 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 21:34:22 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 21:34:22 | WARNING | osim.deadlock | P4 request [3, 3, 0] denied: would leave system unsafe
+2026-11-13 21:34:22 | INFO | osim.deadlock | P0 request [0, 2, 0] granted; safe sequence ['P3', 'P1', 'P2', 'P0', 'P4']
+2026-11-13 21:34:22 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-13 21:34:22 | INFO | osim.main | Menu option 4 completed
+2026-11-13 21:35:43 | INFO | osim.analysis | Full analysis started (quantum=4)
+2026-11-13 21:35:43 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | RR(q=4) on 4 processes: avg_wait=11.75 avg_tat=18.25 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | FCFS on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-13 21:35:43 | INFO | osim.scheduler | SJF on 8 processes: avg_wait=7.75 avg_tat=11.88 util=97.1%
+2026-11-13 21:35:43 | INFO | osim.scheduler | SRTF on 8 processes: avg_wait=3.75 avg_tat=7.88 util=97.1%
+2026-11-13 21:35:43 | INFO | osim.scheduler | Priority on 8 processes: avg_wait=10.50 avg_tat=14.62 util=97.1%
+2026-11-13 21:35:43 | INFO | osim.scheduler | RR(q=4) on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-13 21:35:43 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | SJF on 6 processes: avg_wait=34.00 avg_tat=42.83 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | SRTF on 6 processes: avg_wait=4.17 avg_tat=13.00 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | Priority on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.scheduler | RR(q=4) on 6 processes: avg_wait=8.17 avg_tat=17.00 util=100.0%
+2026-11-13 21:35:43 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\scheduling_trace.txt
+2026-11-13 21:35:43 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_scheduling.csv
+2026-11-13 21:35:43 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\scheduling_comparison.png
+2026-11-13 21:35:43 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_textbook.png
+2026-11-13 21:35:44 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_mixed.png
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=6 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=7 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=8 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=6 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=7 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=6 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=7 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=8 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=6 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=7 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=8 refs=20 faults=6
+2026-11-13 21:35:44 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_textbook.png
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=8 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=1 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=2 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=4 refs=12 faults=8
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=5 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=6 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=7 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=8 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=1 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=2 refs=12 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=4 refs=12 faults=6
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=5 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=6 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=7 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=8 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=1 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=2 refs=12 faults=12
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=4 refs=12 faults=10
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=5 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=6 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=7 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=8 refs=12 faults=5
+2026-11-13 21:35:44 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_belady.png
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=1 refs=36 faults=36
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=2 refs=36 faults=34
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=4 refs=36 faults=18
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=5 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=6 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=7 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging FIFO frames=8 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=1 refs=36 faults=36
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=2 refs=36 faults=34
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=4 refs=36 faults=16
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=5 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=6 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=7 refs=36 faults=11
+2026-11-13 21:35:44 | INFO | osim.memory | Paging LRU frames=8 refs=36 faults=11
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=1 refs=36 faults=36
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=2 refs=36 faults=25
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=4 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=5 refs=36 faults=11
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=6 refs=36 faults=10
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=7 refs=36 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging OPT frames=8 refs=36 faults=9
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=1 refs=36 faults=36
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=2 refs=36 faults=34
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=4 refs=36 faults=18
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=5 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=6 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=7 refs=36 faults=13
+2026-11-13 21:35:44 | INFO | osim.memory | Paging CLOCK frames=8 refs=36 faults=13
+2026-11-13 21:35:45 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_locality.png
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-13 21:35:45 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-13 21:35:45 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\belady_anomaly.png
+2026-11-13 21:35:45 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-13 21:35:45 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-13 21:35:45 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-13 21:35:45 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-13 21:35:45 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-13 21:35:45 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-13 21:35:45 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-13 21:35:45 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\allocation_strategies.png
+2026-11-13 21:35:45 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\memory_trace.txt
+2026-11-13 21:35:45 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_memory.csv
+2026-11-13 21:35:45 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 21:35:45 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 21:35:45 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-13 21:35:45 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-13 21:35:45 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-13 21:35:45 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-13 21:35:45 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-13 21:35:45 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-13 21:35:45 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\deadlock_trace.txt
+2026-11-13 21:35:45 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 21:35:45 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 21:35:45 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 21:35:45 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 21:35:45 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 21:35:45 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 21:35:45 | INFO | osim.storage | Disk FCFS head=250 requests=20 movement=5125
+2026-11-13 21:35:45 | INFO | osim.storage | Disk SSTF head=250 requests=20 movement=723
+2026-11-13 21:35:45 | INFO | osim.storage | Disk SCAN head=250 requests=20 movement=739
+2026-11-13 21:35:45 | INFO | osim.storage | Disk C-SCAN head=250 requests=20 movement=988
+2026-11-13 21:35:45 | INFO | osim.storage | Disk LOOK head=250 requests=20 movement=729
+2026-11-13 21:35:45 | INFO | osim.storage | Disk C-LOOK head=250 requests=20 movement=958
+2026-11-13 21:35:45 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\storage_trace.txt
+2026-11-13 21:35:45 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_storage.csv
+2026-11-13 21:35:45 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\disk_head_movement.png
+2026-11-13 21:35:47 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-13 21:35:48 | INFO | osim.bashbridge | Bash script log_summary.sh ok
+2026-11-13 21:35:48 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\summary_observations.txt
+2026-11-13 21:35:48 | INFO | osim.analysis | Full analysis finished
+2026-11-13 21:35:48 | INFO | osim.main | Menu option 6 completed
+2026-11-13 21:40:47 | INFO | osim.main | Interactive session ended
+2026-11-13 21:40:53 | INFO | osim.main | Interactive session started
+2026-11-13 21:42:38 | INFO | osim.analysis | Full analysis started (quantum=2)
+2026-11-13 21:42:38 | INFO | osim.scheduler | FCFS on 4 processes: avg_wait=8.75 avg_tat=15.25 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | SJF on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | SRTF on 4 processes: avg_wait=6.50 avg_tat=13.00 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | Priority on 4 processes: avg_wait=7.75 avg_tat=14.25 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | RR(q=2) on 4 processes: avg_wait=12.75 avg_tat=19.25 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | FCFS on 8 processes: avg_wait=8.62 avg_tat=12.75 util=97.1%
+2026-11-13 21:42:38 | INFO | osim.scheduler | SJF on 8 processes: avg_wait=7.75 avg_tat=11.88 util=97.1%
+2026-11-13 21:42:38 | INFO | osim.scheduler | SRTF on 8 processes: avg_wait=3.75 avg_tat=7.88 util=97.1%
+2026-11-13 21:42:38 | INFO | osim.scheduler | Priority on 8 processes: avg_wait=10.50 avg_tat=14.62 util=97.1%
+2026-11-13 21:42:38 | INFO | osim.scheduler | RR(q=2) on 8 processes: avg_wait=8.38 avg_tat=12.50 util=97.1%
+2026-11-13 21:42:38 | INFO | osim.scheduler | FCFS on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | SJF on 6 processes: avg_wait=34.00 avg_tat=42.83 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | SRTF on 6 processes: avg_wait=4.17 avg_tat=13.00 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | Priority on 6 processes: avg_wait=35.33 avg_tat=44.17 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.scheduler | RR(q=2) on 6 processes: avg_wait=8.50 avg_tat=17.33 util=100.0%
+2026-11-13 21:42:38 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\scheduling_trace.txt
+2026-11-13 21:42:38 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_scheduling.csv
+2026-11-13 21:42:38 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\scheduling_comparison.png
+2026-11-13 21:42:39 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_textbook.png
+2026-11-13 21:42:39 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\gantt_mixed.png
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=1 refs=20 faults=20
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=2 refs=20 faults=15
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=3 refs=20 faults=15
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=4 refs=20 faults=10
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=5 refs=20 faults=9
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=6 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=7 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging FIFO frames=8 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=1 refs=20 faults=20
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=2 refs=20 faults=17
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=3 refs=20 faults=12
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=4 refs=20 faults=8
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=5 refs=20 faults=7
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=6 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=7 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging LRU frames=8 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=1 refs=20 faults=20
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=2 refs=20 faults=13
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=3 refs=20 faults=9
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=4 refs=20 faults=8
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=5 refs=20 faults=7
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=6 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=7 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging OPT frames=8 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=1 refs=20 faults=20
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=2 refs=20 faults=15
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=3 refs=20 faults=14
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=4 refs=20 faults=9
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=5 refs=20 faults=9
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=6 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=7 refs=20 faults=6
+2026-11-13 21:42:39 | INFO | osim.memory | Paging CLOCK frames=8 refs=20 faults=6
+2026-11-13 21:42:40 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_textbook.png
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=8 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=1 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=2 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=3 refs=12 faults=10
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=4 refs=12 faults=8
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=5 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=6 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=7 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=8 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=1 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=2 refs=12 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=3 refs=12 faults=7
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=4 refs=12 faults=6
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=5 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=6 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=7 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=8 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=1 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=2 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=3 refs=12 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=4 refs=12 faults=10
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=5 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=6 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=7 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=8 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_belady.png
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=1 refs=36 faults=36
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=2 refs=36 faults=34
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=3 refs=36 faults=26
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=4 refs=36 faults=18
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=5 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=6 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=7 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=8 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=1 refs=36 faults=36
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=2 refs=36 faults=34
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=3 refs=36 faults=20
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=4 refs=36 faults=16
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=5 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=6 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=7 refs=36 faults=11
+2026-11-13 21:42:40 | INFO | osim.memory | Paging LRU frames=8 refs=36 faults=11
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=1 refs=36 faults=36
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=2 refs=36 faults=25
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=3 refs=36 faults=17
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=4 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=5 refs=36 faults=11
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=6 refs=36 faults=10
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=7 refs=36 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging OPT frames=8 refs=36 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=1 refs=36 faults=36
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=2 refs=36 faults=34
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=3 refs=36 faults=26
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=4 refs=36 faults=18
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=5 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=6 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=7 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.memory | Paging CLOCK frames=8 refs=36 faults=13
+2026-11-13 21:42:40 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\page_faults_pages_locality.png
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=1 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=2 refs=12 faults=12
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=3 refs=12 faults=9
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=4 refs=12 faults=10
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=5 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=6 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.memory | Paging FIFO frames=7 refs=12 faults=5
+2026-11-13 21:42:40 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\belady_anomaly.png
+2026-11-13 21:42:40 | WARNING | osim.memory | Allocation of D (426) failed under first-fit
+2026-11-13 21:42:40 | INFO | osim.memory | Allocation first-fit total=1000 failed=['D']
+2026-11-13 21:42:40 | WARNING | osim.memory | Allocation of D (426) failed under best-fit
+2026-11-13 21:42:40 | WARNING | osim.memory | Allocation of H (300) failed under best-fit
+2026-11-13 21:42:40 | INFO | osim.memory | Allocation best-fit total=1000 failed=['D', 'H']
+2026-11-13 21:42:40 | WARNING | osim.memory | Allocation of D (426) failed under worst-fit
+2026-11-13 21:42:40 | INFO | osim.memory | Allocation worst-fit total=1000 failed=['D']
+2026-11-13 21:42:41 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\allocation_strategies.png
+2026-11-13 21:42:41 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\memory_trace.txt
+2026-11-13 21:42:41 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_memory.csv
+2026-11-13 21:42:41 | INFO | osim.deadlock | Banker safety check: safe=True sequence=['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 21:42:41 | INFO | osim.deadlock | P1 request [1, 0, 2] granted; safe sequence ['P1', 'P3', 'P4', 'P0', 'P2']
+2026-11-13 21:42:41 | WARNING | osim.deadlock | P4 request [3, 3, 0] must wait: not enough available
+2026-11-13 21:42:41 | WARNING | osim.deadlock | P0 request [0, 2, 0] denied: would leave system unsafe
+2026-11-13 21:42:41 | WARNING | osim.deadlock | P2 request [6, 0, 0] must wait: not enough available
+2026-11-13 21:42:41 | INFO | osim.deadlock | Banker safety check: safe=False sequence=[]
+2026-11-13 21:42:41 | INFO | osim.deadlock | Deadlock detection: deadlocked=[]
+2026-11-13 21:42:41 | INFO | osim.deadlock | Deadlock detection: deadlocked=['P1', 'P2', 'P3', 'P4']
+2026-11-13 21:42:41 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\deadlock_trace.txt
+2026-11-13 21:42:41 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 21:42:41 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 21:42:41 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 21:42:41 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 21:42:41 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 21:42:41 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 21:42:41 | INFO | osim.storage | Disk FCFS head=250 requests=20 movement=5125
+2026-11-13 21:42:41 | INFO | osim.storage | Disk SSTF head=250 requests=20 movement=723
+2026-11-13 21:42:41 | INFO | osim.storage | Disk SCAN head=250 requests=20 movement=739
+2026-11-13 21:42:41 | INFO | osim.storage | Disk C-SCAN head=250 requests=20 movement=988
+2026-11-13 21:42:41 | INFO | osim.storage | Disk LOOK head=250 requests=20 movement=729
+2026-11-13 21:42:41 | INFO | osim.storage | Disk C-LOOK head=250 requests=20 movement=958
+2026-11-13 21:42:41 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\storage_trace.txt
+2026-11-13 21:42:41 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\results_storage.csv
+2026-11-13 21:42:41 | INFO | osim.reporting | Chart saved C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\charts\disk_head_movement.png
+2026-11-13 21:42:43 | INFO | osim.bashbridge | Bash script sysinfo.sh ok
+2026-11-13 21:42:44 | INFO | osim.bashbridge | Bash script log_summary.sh ok
+2026-11-13 21:42:44 | INFO | osim.reporting | Wrote C:\Users\krish\OneDrive\Desktop\os_resource_manager\outputs\traces\summary_observations.txt
+2026-11-13 21:42:44 | INFO | osim.analysis | Full analysis finished
+2026-11-13 21:42:44 | INFO | osim.main | Menu option 6 completed
+2026-11-13 21:46:48 | INFO | osim.main | Interactive session ended
+2026-11-13 21:46:52 | INFO | osim.main | Interactive session started
+2026-11-13 21:46:57 | INFO | osim.storage | Disk FCFS head=53 requests=8 movement=640
+2026-11-13 21:46:57 | INFO | osim.storage | Disk SSTF head=53 requests=8 movement=236
+2026-11-13 21:46:57 | INFO | osim.storage | Disk SCAN head=53 requests=8 movement=331
+2026-11-13 21:46:57 | INFO | osim.storage | Disk C-SCAN head=53 requests=8 movement=382
+2026-11-13 21:46:57 | INFO | osim.storage | Disk LOOK head=53 requests=8 movement=299
+2026-11-13 21:46:57 | INFO | osim.storage | Disk C-LOOK head=53 requests=8 movement=322
+2026-11-13 21:46:57 | INFO | osim.main | Menu option 5 completed
+2026-11-13 21:48:49 | ERROR | osim.main | Menu option 1: File not found: C:\Users\krish\OneDrive\Desktop\os_resource_manager\hell
